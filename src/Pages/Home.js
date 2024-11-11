@@ -4,7 +4,11 @@ import  Banner from '../Components/Banner.js';
 import TabsView from './TabsView.js';
 import Api from './Api.js';
 import Data from './Data.js';
-import ContactForm from './ContactForm.js';
+import Log from './Log.js';
+import View from '../Components/View.js';
+import ContactxForm from './ContactxForm.js';
+
+
 
 const Home = () => {
   const bannerData = {
@@ -20,10 +24,15 @@ const Home = () => {
         title={bannerData.title} 
         subtitle={bannerData.subtitle} 
       />
-      <TabsView />
-      <Api/>
-      <Data/>
-      <ContactForm />
+{/* <TabsView /> */}
+      {/* <Api/> */}
+      {/* <Data/> */}
+      {/* <ContactxForm /> */}
+      <Log />
+      {/* <View /> */}
+      
+      
+    
     </div>
   );
 };
